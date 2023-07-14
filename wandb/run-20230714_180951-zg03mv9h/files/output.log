@@ -1,0 +1,37 @@
+Epoch 1
+-------------------------------
+loss: 0.796550  [    4/  207]
+Test Error:
+ Accuracy: 54.3%, Avg loss: 0.901709
+Epoch 2
+-------------------------------
+loss: 0.592188  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 0.767928
+Epoch 3
+-------------------------------
+loss: 0.668782  [    4/  207]
+Test Error:
+ Accuracy: 52.9%, Avg loss: 0.779568
+Epoch 4
+-------------------------------
+loss: 1.155463  [    4/  207]
+Test Error:
+ Accuracy: 55.7%, Avg loss: 0.812312
+Epoch 5
+-------------------------------
+loss: 0.716798  [    4/  207]
+Test Error:
+ Accuracy: 50.0%, Avg loss: 0.787776
+Epoch 6
+-------------------------------
+loss: 0.837605  [    4/  207]
+Test Error:
+ Accuracy: 57.1%, Avg loss: 0.792974
+Epoch 7
+-------------------------------
+loss: 1.248446  [    4/  207]
+Test Error:
+ Accuracy: 55.7%, Avg loss: 0.805653
+Epoch 8
+-------------------------------

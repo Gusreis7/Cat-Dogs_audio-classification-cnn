@@ -1,0 +1,104 @@
+{
+    "os": "Linux-5.19.0-46-generic-x86_64-with-glibc2.35",
+    "python": "3.9.17",
+    "heartbeatAt": "2023-07-14T15:49:29.083721",
+    "startedAt": "2023-07-14T15:49:27.473416",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:Gusreis7/Cat-Dogs_audio-classification.git",
+        "commit": "bfe970e046bd428367974374e1692e303370889e"
+    },
+    "email": "gustavo.reis2@discente.ufg.br",
+    "root": "/home/gustavo/PersonalProjects/Cat-Dogs_audio-classification",
+    "host": "pandora",
+    "username": "gustavo",
+    "executable": "/home/gustavo/anaconda3/envs/rnp/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3602.6877500000005,
+        "min": 1200.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3907.922,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3673.007,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3350.62,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3161.027,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3742.981,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3826.032,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3166.158,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3929.211,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3944.81,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3942.989,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3320.804,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3266.692,
+            "min": 1200.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "total": 463.5929718017578,
+        "used": 129.26566696166992
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4100784128
+        }
+    ],
+    "memory": {
+        "total": 22.82352066040039
+    }
+}

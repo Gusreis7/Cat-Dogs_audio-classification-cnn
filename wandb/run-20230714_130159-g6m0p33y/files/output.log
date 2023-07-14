@@ -1,0 +1,9 @@
+Epoch 1
+-------------------------------
+torch.Size([2, 201, 401])
+torch.Size([2, 49, 99])
+torch.Size([2, 4851])
+tensor([[ 3.0461, -3.9223],
+        [-0.4512, -0.2872]], device='cuda:0', grad_fn=<AddmmBackward0>)
+torch.Size([2, 2])
+loss: 0.389719  [    2/  207]
