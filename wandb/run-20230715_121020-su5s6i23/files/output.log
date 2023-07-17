@@ -1,0 +1,251 @@
+Epoch 1
+-------------------------------
+loss: 10.453235  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.398184
+Epoch 2
+-------------------------------
+loss: 0.814533  [    4/  207]
+Test Error:
+ Accuracy: 58.6%, Avg loss: 2.249948
+Epoch 3
+-------------------------------
+loss: 0.502037  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.543585
+Epoch 4
+-------------------------------
+loss: 0.078427  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.240706
+Epoch 5
+-------------------------------
+loss: 0.141005  [    4/  207]
+Test Error:
+ Accuracy: 68.6%, Avg loss: 1.858528
+Epoch 6
+-------------------------------
+loss: 6.760652  [    4/  207]
+Test Error:
+ Accuracy: 57.1%, Avg loss: 2.458256
+Epoch 7
+-------------------------------
+loss: 0.086213  [    4/  207]
+Test Error:
+ Accuracy: 64.3%, Avg loss: 2.213003
+Epoch 8
+-------------------------------
+loss: 0.894599  [    4/  207]
+Test Error:
+ Accuracy: 51.4%, Avg loss: 2.371805
+Epoch 9
+-------------------------------
+loss: 2.028530  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.341398
+Epoch 10
+-------------------------------
+loss: 0.405211  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.288073
+Epoch 11
+-------------------------------
+loss: 3.995534  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.340644
+Epoch 12
+-------------------------------
+loss: 12.509712  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.514244
+Epoch 13
+-------------------------------
+loss: 0.648513  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.319959
+Epoch 14
+-------------------------------
+loss: 1.883306  [    4/  207]
+Test Error:
+ Accuracy: 65.7%, Avg loss: 2.252967
+Epoch 15
+-------------------------------
+loss: 0.164411  [    4/  207]
+Test Error:
+ Accuracy: 55.7%, Avg loss: 2.750279
+Epoch 16
+-------------------------------
+loss: 0.577131  [    4/  207]
+Test Error:
+ Accuracy: 64.3%, Avg loss: 2.087187
+Epoch 17
+-------------------------------
+loss: 0.083565  [    4/  207]
+Test Error:
+ Accuracy: 52.9%, Avg loss: 2.326082
+Epoch 18
+-------------------------------
+loss: 0.828882  [    4/  207]
+Test Error:
+ Accuracy: 57.1%, Avg loss: 2.860266
+Epoch 19
+-------------------------------
+loss: 0.227829  [    4/  207]
+Test Error:
+ Accuracy: 58.6%, Avg loss: 2.310591
+Epoch 20
+-------------------------------
+loss: 1.559388  [    4/  207]
+Test Error:
+ Accuracy: 57.1%, Avg loss: 2.520203
+Epoch 21
+-------------------------------
+loss: 11.094584  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.338655
+Epoch 22
+-------------------------------
+loss: 0.016273  [    4/  207]
+Test Error:
+ Accuracy: 52.9%, Avg loss: 2.702464
+Epoch 23
+-------------------------------
+loss: 3.686497  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.243573
+Epoch 24
+-------------------------------
+loss: 0.080016  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.161076
+Epoch 25
+-------------------------------
+loss: 2.825934  [    4/  207]
+Test Error:
+ Accuracy: 64.3%, Avg loss: 2.303343
+Epoch 26
+-------------------------------
+loss: 1.291384  [    4/  207]
+Test Error:
+ Accuracy: 65.7%, Avg loss: 1.880312
+Epoch 27
+-------------------------------
+loss: 1.566369  [    4/  207]
+Test Error:
+ Accuracy: 60.0%, Avg loss: 2.136371
+Epoch 28
+-------------------------------
+loss: 2.453962  [    4/  207]
+Test Error:
+ Accuracy: 52.9%, Avg loss: 2.367726
+Epoch 29
+-------------------------------
+loss: 0.201425  [    4/  207]
+Test Error:
+ Accuracy: 65.7%, Avg loss: 2.428518
+Epoch 30
+-------------------------------
+loss: 0.791095  [    4/  207]
+Test Error:
+ Accuracy: 58.6%, Avg loss: 2.136370
+Epoch 31
+-------------------------------
+loss: 1.361524  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.105496
+Epoch 32
+-------------------------------
+loss: 0.160217  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 2.205849
+Epoch 33
+-------------------------------
+loss: 1.292897  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.073376
+Epoch 34
+-------------------------------
+loss: 1.478702  [    4/  207]
+Test Error:
+ Accuracy: 65.7%, Avg loss: 2.026529
+Epoch 35
+-------------------------------
+loss: 0.499854  [    4/  207]
+Test Error:
+ Accuracy: 60.0%, Avg loss: 2.506886
+Epoch 36
+-------------------------------
+loss: 2.191182  [    4/  207]
+Test Error:
+ Accuracy: 60.0%, Avg loss: 2.676084
+Epoch 37
+-------------------------------
+loss: 0.129027  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.246690
+Epoch 38
+-------------------------------
+loss: 8.584882  [    4/  207]
+Test Error:
+ Accuracy: 60.0%, Avg loss: 2.221147
+Epoch 39
+-------------------------------
+loss: 0.665381  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.131629
+Epoch 40
+-------------------------------
+loss: 9.659367  [    4/  207]
+Test Error:
+ Accuracy: 67.1%, Avg loss: 2.115276
+Epoch 41
+-------------------------------
+loss: 4.268425  [    4/  207]
+Test Error:
+ Accuracy: 62.9%, Avg loss: 1.980369
+Epoch 42
+-------------------------------
+loss: 3.899588  [    4/  207]
+Test Error:
+ Accuracy: 58.6%, Avg loss: 2.556893
+Epoch 43
+-------------------------------
+loss: 1.320107  [    4/  207]
+Test Error:
+ Accuracy: 64.3%, Avg loss: 2.066852
+Epoch 44
+-------------------------------
+loss: 0.740961  [    4/  207]
+Test Error:
+ Accuracy: 67.1%, Avg loss: 1.986912
+Epoch 45
+-------------------------------
+loss: 1.261950  [    4/  207]
+Test Error:
+ Accuracy: 64.3%, Avg loss: 2.066886
+Epoch 46
+-------------------------------
+loss: 0.621315  [    4/  207]
+Test Error:
+ Accuracy: 64.3%, Avg loss: 1.983467
+Epoch 47
+-------------------------------
+loss: 2.049774  [    4/  207]
+Test Error:
+ Accuracy: 61.4%, Avg loss: 2.137482
+Epoch 48
+-------------------------------
+loss: 1.643152  [    4/  207]
+Test Error:
+ Accuracy: 68.6%, Avg loss: 2.049482
+Epoch 49
+-------------------------------
+loss: 1.121289  [    4/  207]
+Test Error:
+ Accuracy: 68.6%, Avg loss: 1.848543
+Epoch 50
+-------------------------------
+loss: 2.297150  [    4/  207]
+Test Error:
+ Accuracy: 57.1%, Avg loss: 2.630355
+Done!

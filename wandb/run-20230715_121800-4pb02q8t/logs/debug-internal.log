@@ -1,0 +1,448 @@
+2023-07-15 12:18:18,172 INFO    StreamThr :5910 [internal.py:wandb_internal():86] W&B internal server running at pid: 5910, started at: 2023-07-15 12:18:18.171512
+2023-07-15 12:18:18,172 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status
+2023-07-15 12:18:18,175 INFO    WriterThread:5910 [datastore.py:open_for_write():85] open: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/run-4pb02q8t.wandb
+2023-07-15 12:18:18,175 DEBUG   SenderThread:5910 [sender.py:send():369] send: header
+2023-07-15 12:18:18,225 DEBUG   SenderThread:5910 [sender.py:send():369] send: run
+2023-07-15 12:18:19,456 INFO    SenderThread:5910 [dir_watcher.py:__init__():211] watching files in: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files
+2023-07-15 12:18:19,456 INFO    SenderThread:5910 [sender.py:_start_run_threads():1100] run started: 4pb02q8t with start time 1689434298.173163
+2023-07-15 12:18:19,459 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:19,460 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:19,463 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: check_version
+2023-07-15 12:18:19,463 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: check_version
+2023-07-15 12:18:19,653 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: run_start
+2023-07-15 12:18:19,653 DEBUG   HandlerThread:5910 [system_info.py:__init__():31] System info init
+2023-07-15 12:18:19,653 DEBUG   HandlerThread:5910 [system_info.py:__init__():46] System info init done
+2023-07-15 12:18:19,653 INFO    HandlerThread:5910 [system_monitor.py:start():181] Starting system monitor
+2023-07-15 12:18:19,653 INFO    SystemMonitor:5910 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-15 12:18:19,654 INFO    HandlerThread:5910 [system_monitor.py:probe():201] Collecting system info
+2023-07-15 12:18:19,654 INFO    SystemMonitor:5910 [interfaces.py:start():190] Started cpu monitoring
+2023-07-15 12:18:19,654 INFO    SystemMonitor:5910 [interfaces.py:start():190] Started disk monitoring
+2023-07-15 12:18:19,655 INFO    SystemMonitor:5910 [interfaces.py:start():190] Started gpu monitoring
+2023-07-15 12:18:19,656 INFO    SystemMonitor:5910 [interfaces.py:start():190] Started memory monitoring
+2023-07-15 12:18:19,656 INFO    SystemMonitor:5910 [interfaces.py:start():190] Started network monitoring
+2023-07-15 12:18:19,659 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:19,659 DEBUG   HandlerThread:5910 [system_info.py:probe():195] Probing system
+2023-07-15 12:18:19,660 DEBUG   HandlerThread:5910 [system_info.py:_probe_git():180] Probing git
+2023-07-15 12:18:19,670 DEBUG   HandlerThread:5910 [system_info.py:_probe_git():188] Probing git done
+2023-07-15 12:18:19,670 DEBUG   HandlerThread:5910 [system_info.py:probe():240] Probing system done
+2023-07-15 12:18:19,670 DEBUG   HandlerThread:5910 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-46-generic-x86_64-with-glibc2.35', 'python': '3.9.17', 'heartbeatAt': '2023-07-15T15:18:19.659987', 'startedAt': '2023-07-15T15:18:00.500587', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:Gusreis7/Cat-Dogs_audio-classification.git', 'commit': 'c89f9fc393d318607c69b2e20539eafc81dedab4'}, 'email': 'gustavo.reis2@discente.ufg.br', 'root': '/home/gustavo/PersonalProjects/Cat-Dogs_audio-classification', 'host': 'pandora', 'username': 'gustavo', 'executable': '/home/gustavo/anaconda3/envs/rnp/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2477.7896666666666, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 3706.936, 'min': 1200.0, 'max': 3300.0}, {'current': 2697.415, 'min': 1200.0, 'max': 3300.0}, {'current': 3264.171, 'min': 1200.0, 'max': 3300.0}, {'current': 3549.482, 'min': 1200.0, 'max': 3300.0}, {'current': 3240.913, 'min': 1200.0, 'max': 3300.0}, {'current': 3395.39, 'min': 1200.0, 'max': 3300.0}, {'current': 3243.795, 'min': 1200.0, 'max': 3300.0}, {'current': 3631.784, 'min': 1200.0, 'max': 3300.0}, {'current': 3580.994, 'min': 1200.0, 'max': 3300.0}, {'current': 3256.055, 'min': 1200.0, 'max': 3300.0}, {'current': 3567.789, 'min': 1200.0, 'max': 3300.0}, {'current': 2070.906, 'min': 1200.0, 'max': 3300.0}], 'disk': {'total': 463.5929718017578, 'used': 129.1735382080078}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4100784128}], 'memory': {'total': 22.823524475097656}}
+2023-07-15 12:18:19,670 INFO    HandlerThread:5910 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-15 12:18:19,670 INFO    HandlerThread:5910 [system_monitor.py:probe():214] Publishing system info
+2023-07-15 12:18:19,670 DEBUG   HandlerThread:5910 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-15 12:18:19,671 DEBUG   HandlerThread:5910 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-15 12:18:19,671 DEBUG   HandlerThread:5910 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-15 12:18:20,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/conda-environment.yaml
+2023-07-15 12:18:20,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:20,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/requirements.txt
+2023-07-15 12:18:21,628 DEBUG   HandlerThread:5910 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-15 12:18:21,629 INFO    HandlerThread:5910 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-15 12:18:21,630 DEBUG   SenderThread:5910 [sender.py:send():369] send: files
+2023-07-15 12:18:21,630 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-15 12:18:21,637 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-15 12:18:21,638 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: stop_status
+2023-07-15 12:18:21,662 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:21,910 DEBUG   SenderThread:5910 [sender.py:send():369] send: telemetry
+2023-07-15 12:18:22,257 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:22,258 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:22,258 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:22,258 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:22,422 INFO    wandb-upload_0:5910 [upload_job.py:push():133] Uploaded file /tmp/tmp1jzifbu9wandb/tu37f1k2-wandb-metadata.json
+2023-07-15 12:18:22,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/conda-environment.yaml
+2023-07-15 12:18:22,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:22,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-metadata.json
+2023-07-15 12:18:22,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:22,836 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:22,837 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:22,837 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:22,838 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:23,434 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:23,434 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:23,434 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:23,435 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:23,435 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:23,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:23,665 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:24,023 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:24,024 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:24,024 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:24,024 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:24,457 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:24,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:24,607 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:24,608 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:24,608 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:24,608 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:25,188 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:25,189 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:25,189 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:25,189 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:25,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:25,671 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:25,768 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:25,768 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:25,768 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:25,769 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:26,347 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:26,348 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:26,348 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:26,348 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:26,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:26,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:26,928 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:26,928 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:26,929 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:26,929 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:27,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:27,509 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:27,510 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:27,510 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:27,510 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:27,674 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:28,108 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:28,109 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:28,109 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:28,109 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:28,458 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:28,459 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:28,689 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:28,689 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:28,690 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:28,690 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:28,690 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:29,270 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:29,271 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:29,271 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:29,271 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:29,459 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:29,678 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:29,866 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:29,867 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:29,867 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:29,867 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:30,447 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:30,448 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:30,448 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:30,448 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:30,459 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:30,459 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:31,030 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:31,031 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:31,031 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:31,031 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:31,459 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:31,610 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:31,611 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:31,611 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:31,611 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:31,681 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:32,190 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:32,190 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:32,193 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:32,193 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:32,460 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:32,460 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:32,782 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:32,782 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:32,782 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:32,783 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:33,362 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:33,363 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:33,363 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:33,363 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:33,460 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:33,687 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:33,938 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:33,938 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:33,938 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:33,938 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:33,939 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:34,460 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:34,460 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:34,514 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:34,515 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:34,515 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:34,515 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:35,094 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:35,094 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:35,095 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:35,095 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:35,461 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:35,679 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:35,680 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:35,680 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:35,682 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:35,690 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:36,259 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:36,260 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:36,260 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:36,260 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:36,461 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:36,461 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:36,637 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-15 12:18:36,638 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: stop_status
+2023-07-15 12:18:36,838 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:36,861 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:36,861 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:36,861 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:37,461 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:37,461 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:37,465 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:37,465 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:37,465 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:37,694 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:37,998 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:37,998 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:37,998 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:37,999 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:38,461 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:38,462 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:38,575 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:38,576 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:38,576 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:38,576 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:39,154 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:39,155 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:39,155 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:39,155 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:39,156 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:39,462 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:39,697 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:39,732 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:39,733 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:39,733 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:39,733 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:40,311 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:40,311 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:40,312 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:40,312 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:40,462 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:40,462 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:40,888 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:40,889 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:40,889 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:40,889 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:41,462 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:41,477 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:41,477 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:41,477 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:41,478 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:41,700 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:42,052 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:42,053 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:42,053 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:42,053 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:42,462 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:42,463 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:42,630 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:42,631 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:42,631 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:42,631 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:43,210 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:43,211 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:43,211 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:43,211 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:43,463 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:43,706 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:43,789 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:43,790 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:43,790 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:43,790 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:44,371 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:44,371 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:44,372 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:44,372 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:44,372 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:44,463 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:44,463 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:44,950 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:44,951 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:44,951 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:44,951 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:45,463 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:45,528 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:45,529 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:45,529 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:45,529 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:45,710 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:46,106 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:46,107 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:46,107 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:46,108 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:46,463 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:46,464 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:46,685 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:46,686 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:46,686 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:46,686 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:47,262 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:47,263 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:47,263 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:47,263 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:47,464 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:47,713 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:47,841 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:47,841 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:47,842 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:47,842 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:48,418 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:48,418 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:48,419 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:48,419 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:48,464 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:48,464 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:48,997 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:48,998 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:48,998 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:48,998 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:49,464 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:49,580 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:49,580 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:49,757 ERROR   gpu       :5910 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-15 12:18:49,867 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:49,868 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:49,868 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:50,158 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:50,159 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:50,159 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:50,159 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:50,465 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/config.yaml
+2023-07-15 12:18:50,465 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:50,465 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:50,841 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-15 12:18:50,842 DEBUG   SenderThread:5910 [sender.py:send():369] send: history
+2023-07-15 12:18:50,842 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: summary_record
+2023-07-15 12:18:50,843 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:50,843 DEBUG   SenderThread:5910 [sender.py:send():369] send: telemetry
+2023-07-15 12:18:50,843 DEBUG   SenderThread:5910 [sender.py:send():369] send: exit
+2023-07-15 12:18:50,843 INFO    SenderThread:5910 [sender.py:send_exit():574] handling exit code: 0
+2023-07-15 12:18:50,843 INFO    SenderThread:5910 [sender.py:send_exit():576] handling runtime: 31
+2023-07-15 12:18:50,846 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:50,846 INFO    SenderThread:5910 [sender.py:send_exit():582] send defer
+2023-07-15 12:18:50,846 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,846 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-15 12:18:50,846 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,846 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-15 12:18:50,846 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 1
+2023-07-15 12:18:50,846 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,846 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-15 12:18:50,846 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,846 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-15 12:18:50,846 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 2
+2023-07-15 12:18:50,846 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,846 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-15 12:18:50,846 INFO    HandlerThread:5910 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-15 12:18:50,847 INFO    HandlerThread:5910 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-15 12:18:50,847 DEBUG   SystemMonitor:5910 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-15 12:18:50,847 DEBUG   SystemMonitor:5910 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-15 12:18:50,847 DEBUG   SystemMonitor:5910 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-15 12:18:50,847 INFO    HandlerThread:5910 [interfaces.py:finish():202] Joined disk monitor
+2023-07-15 12:18:50,874 INFO    HandlerThread:5910 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-15 12:18:50,875 INFO    HandlerThread:5910 [interfaces.py:finish():202] Joined memory monitor
+2023-07-15 12:18:50,875 INFO    HandlerThread:5910 [interfaces.py:finish():202] Joined network monitor
+2023-07-15 12:18:50,875 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,875 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-15 12:18:50,875 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 3
+2023-07-15 12:18:50,875 DEBUG   SenderThread:5910 [sender.py:send():369] send: stats
+2023-07-15 12:18:50,875 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,875 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-15 12:18:50,876 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 4
+2023-07-15 12:18:50,876 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,876 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-15 12:18:50,876 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 5
+2023-07-15 12:18:50,876 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,876 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-15 12:18:50,876 DEBUG   SenderThread:5910 [sender.py:send():369] send: summary
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-15 12:18:50,876 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-15 12:18:50,876 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 6
+2023-07-15 12:18:50,877 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:50,877 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-15 12:18:50,877 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:50,877 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-15 12:18:50,879 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: status_report
+2023-07-15 12:18:51,301 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 7
+2023-07-15 12:18:51,301 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:51,301 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-15 12:18:51,302 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:51,302 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-15 12:18:51,465 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/config.yaml
+2023-07-15 12:18:51,466 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:51,843 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-15 12:18:51,965 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 8
+2023-07-15 12:18:51,965 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: poll_exit
+2023-07-15 12:18:51,965 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:51,966 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-15 12:18:51,966 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:51,966 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-15 12:18:51,966 INFO    SenderThread:5910 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-15 12:18:51,966 INFO    SenderThread:5910 [job_builder.py:build():259] run is notebook based run
+2023-07-15 12:18:51,966 INFO    SenderThread:5910 [job_builder.py:build():264] is repo sourced job
+2023-07-15 12:18:51,966 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 9
+2023-07-15 12:18:51,966 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:51,966 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-15 12:18:51,967 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:51,967 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-15 12:18:51,967 INFO    SenderThread:5910 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-15 12:18:52,466 INFO    Thread-61 :5910 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:52,466 INFO    SenderThread:5910 [dir_watcher.py:finish():389] scan: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files
+2023-07-15 12:18:52,467 INFO    SenderThread:5910 [dir_watcher.py:finish():403] scan save: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-metadata.json wandb-metadata.json
+2023-07-15 12:18:52,467 INFO    SenderThread:5910 [dir_watcher.py:finish():403] scan save: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/requirements.txt requirements.txt
+2023-07-15 12:18:52,467 INFO    SenderThread:5910 [dir_watcher.py:finish():403] scan save: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/conda-environment.yaml conda-environment.yaml
+2023-07-15 12:18:52,469 INFO    SenderThread:5910 [dir_watcher.py:finish():403] scan save: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log output.log
+2023-07-15 12:18:52,469 INFO    SenderThread:5910 [dir_watcher.py:finish():403] scan save: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/config.yaml config.yaml
+2023-07-15 12:18:52,470 INFO    SenderThread:5910 [dir_watcher.py:finish():403] scan save: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json wandb-summary.json
+2023-07-15 12:18:52,473 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 10
+2023-07-15 12:18:52,475 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:52,477 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-15 12:18:52,477 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:52,477 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-15 12:18:52,477 INFO    SenderThread:5910 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-15 12:18:52,844 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-15 12:18:52,844 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: poll_exit
+2023-07-15 12:18:53,167 INFO    wandb-upload_1:5910 [upload_job.py:push():133] Uploaded file /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/conda-environment.yaml
+2023-07-15 12:18:53,273 INFO    wandb-upload_0:5910 [upload_job.py:push():133] Uploaded file /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/requirements.txt
+2023-07-15 12:18:53,655 INFO    wandb-upload_3:5910 [upload_job.py:push():133] Uploaded file /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/config.yaml
+2023-07-15 12:18:53,655 INFO    wandb-upload_4:5910 [upload_job.py:push():133] Uploaded file /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/wandb-summary.json
+2023-07-15 12:18:53,656 INFO    wandb-upload_2:5910 [upload_job.py:push():133] Uploaded file /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/files/output.log
+2023-07-15 12:18:53,844 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-15 12:18:53,845 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: poll_exit
+2023-07-15 12:18:53,856 INFO    Thread-60 :5910 [sender.py:transition_state():602] send defer: 11
+2023-07-15 12:18:53,857 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:53,857 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-15 12:18:53,857 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:53,857 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-15 12:18:53,857 INFO    SenderThread:5910 [file_pusher.py:join():164] waiting for file pusher
+2023-07-15 12:18:53,857 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 12
+2023-07-15 12:18:53,857 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:53,857 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-15 12:18:53,858 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:53,858 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-15 12:18:54,168 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 13
+2023-07-15 12:18:54,168 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:54,168 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-15 12:18:54,168 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:54,168 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-15 12:18:54,168 INFO    SenderThread:5910 [sender.py:transition_state():602] send defer: 14
+2023-07-15 12:18:54,169 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: defer
+2023-07-15 12:18:54,169 INFO    HandlerThread:5910 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-15 12:18:54,169 DEBUG   SenderThread:5910 [sender.py:send():369] send: final
+2023-07-15 12:18:54,169 DEBUG   SenderThread:5910 [sender.py:send():369] send: footer
+2023-07-15 12:18:54,169 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: defer
+2023-07-15 12:18:54,169 INFO    SenderThread:5910 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-15 12:18:54,170 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-15 12:18:54,170 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: poll_exit
+2023-07-15 12:18:54,170 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: server_info
+2023-07-15 12:18:54,170 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-15 12:18:54,170 DEBUG   SenderThread:5910 [sender.py:send_request():396] send_request: server_info
+2023-07-15 12:18:54,170 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-15 12:18:54,576 DEBUG   HandlerThread:5910 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-15 12:18:54,576 INFO    HandlerThread:5910 [handler.py:finish():854] shutting down handler
+2023-07-15 12:18:55,170 INFO    WriterThread:5910 [datastore.py:close():298] close: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230715_121800-4pb02q8t/run-4pb02q8t.wandb
+2023-07-15 12:18:55,576 INFO    SenderThread:5910 [sender.py:finish():1526] shutting down sender
+2023-07-15 12:18:55,576 INFO    SenderThread:5910 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-15 12:18:55,576 INFO    SenderThread:5910 [file_pusher.py:join():164] waiting for file pusher

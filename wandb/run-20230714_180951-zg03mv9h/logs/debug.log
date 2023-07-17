@@ -26,3 +26,13 @@ config: {}
 2023-07-14 18:09:54,471 INFO    MainThread:6872 [wandb_run.py:_redirect():2072] Wrapping output streams.
 2023-07-14 18:09:54,471 INFO    MainThread:6872 [wandb_run.py:_redirect():2097] Redirects installed.
 2023-07-14 18:09:54,471 INFO    MainThread:6872 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-14 18:14:00,452 INFO    MainThread:6872 [wandb_run.py:_finish():1887] finishing run gustavoreis/CatXDogs/zg03mv9h
+2023-07-14 18:14:00,452 ERROR   MainThread:6872 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-07-14 18:14:00,452 INFO    MainThread:6872 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-14 18:14:00,452 INFO    MainThread:6872 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-14 18:14:00,452 INFO    MainThread:6872 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-14 18:14:00,453 INFO    MainThread:6872 [wandb_run.py:_restore():2104] restore
+2023-07-14 18:14:00,453 INFO    MainThread:6872 [wandb_run.py:_restore():2110] restore done
+2023-07-14 18:14:15,389 INFO    MainThread:6872 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2023-07-14 18:14:15,389 INFO    MainThread:6872 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2023-07-14 18:14:15,392 INFO    MainThread:6872 [wandb_run.py:_footer_sync_info():3423] logging synced files
