@@ -1,8 +1,0 @@
-Epoch 1
--------------------------------
-torch.Size([2, 201, 401])
-torch.Size([2, 49, 99])
-torch.Size([2, 4851])
-torch.Size([2, 2])
-torch.Size([2, 2])
-loss: 3.685100  [    2/  207]

@@ -1,0 +1,244 @@
+2023-07-20 21:49:02,095 INFO    StreamThr :7383 [internal.py:wandb_internal():86] W&B internal server running at pid: 7383, started at: 2023-07-20 21:49:02.094495
+2023-07-20 21:49:02,096 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status
+2023-07-20 21:49:02,099 INFO    WriterThread:7383 [datastore.py:open_for_write():85] open: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/run-527uys2m.wandb
+2023-07-20 21:49:02,099 DEBUG   SenderThread:7383 [sender.py:send():369] send: header
+2023-07-20 21:49:02,167 DEBUG   SenderThread:7383 [sender.py:send():369] send: run
+2023-07-20 21:49:02,800 INFO    SenderThread:7383 [dir_watcher.py:__init__():211] watching files in: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files
+2023-07-20 21:49:02,800 INFO    SenderThread:7383 [sender.py:_start_run_threads():1100] run started: 527uys2m with start time 1689900542.094523
+2023-07-20 21:49:02,800 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:02,800 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:02,803 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: check_version
+2023-07-20 21:49:02,804 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: check_version
+2023-07-20 21:49:02,999 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: run_start
+2023-07-20 21:49:03,011 DEBUG   HandlerThread:7383 [system_info.py:__init__():31] System info init
+2023-07-20 21:49:03,011 DEBUG   HandlerThread:7383 [system_info.py:__init__():46] System info init done
+2023-07-20 21:49:03,011 INFO    HandlerThread:7383 [system_monitor.py:start():181] Starting system monitor
+2023-07-20 21:49:03,012 INFO    SystemMonitor:7383 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-20 21:49:03,012 INFO    HandlerThread:7383 [system_monitor.py:probe():201] Collecting system info
+2023-07-20 21:49:03,013 INFO    SystemMonitor:7383 [interfaces.py:start():190] Started cpu monitoring
+2023-07-20 21:49:03,013 INFO    SystemMonitor:7383 [interfaces.py:start():190] Started disk monitoring
+2023-07-20 21:49:03,014 INFO    SystemMonitor:7383 [interfaces.py:start():190] Started gpu monitoring
+2023-07-20 21:49:03,014 INFO    SystemMonitor:7383 [interfaces.py:start():190] Started memory monitoring
+2023-07-20 21:49:03,015 INFO    SystemMonitor:7383 [interfaces.py:start():190] Started network monitoring
+2023-07-20 21:49:03,023 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:03,024 DEBUG   HandlerThread:7383 [system_info.py:probe():195] Probing system
+2023-07-20 21:49:03,029 DEBUG   HandlerThread:7383 [system_info.py:_probe_git():180] Probing git
+2023-07-20 21:49:03,039 DEBUG   HandlerThread:7383 [system_info.py:_probe_git():188] Probing git done
+2023-07-20 21:49:03,039 DEBUG   HandlerThread:7383 [system_info.py:probe():240] Probing system done
+2023-07-20 21:49:03,039 DEBUG   HandlerThread:7383 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-46-generic-x86_64-with-glibc2.35', 'python': '3.9.17', 'heartbeatAt': '2023-07-21T00:49:03.024172', 'startedAt': '2023-07-21T00:49:02.085814', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:Gusreis7/Cat-Dogs_audio-classification.git', 'commit': '88035b2e2a2f6fd5e4ab9ab604351b28058dcda6'}, 'email': 'gustavo.reis2@discente.ufg.br', 'root': '/home/gustavo/PersonalProjects/Cat-Dogs_audio-classification', 'host': 'pandora', 'username': 'gustavo', 'executable': '/home/gustavo/anaconda3/envs/rnp/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3208.351666666667, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 3213.407, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}, {'current': 3230.198, 'min': 1200.0, 'max': 3300.0}, {'current': 3464.174, 'min': 1200.0, 'max': 3300.0}, {'current': 3983.177, 'min': 1200.0, 'max': 3300.0}, {'current': 3424.075, 'min': 1200.0, 'max': 3300.0}, {'current': 3296.456, 'min': 1200.0, 'max': 3300.0}, {'current': 3277.866, 'min': 1200.0, 'max': 3300.0}, {'current': 3217.782, 'min': 1200.0, 'max': 3300.0}, {'current': 3213.378, 'min': 1200.0, 'max': 3300.0}, {'current': 3679.707, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}], 'disk': {'total': 463.5929718017578, 'used': 145.76007080078125}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4100784128}], 'memory': {'total': 22.82352066040039}}
+2023-07-20 21:49:03,039 INFO    HandlerThread:7383 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-20 21:49:03,039 INFO    HandlerThread:7383 [system_monitor.py:probe():214] Publishing system info
+2023-07-20 21:49:03,039 DEBUG   HandlerThread:7383 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-20 21:49:03,039 DEBUG   HandlerThread:7383 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-20 21:49:03,039 DEBUG   HandlerThread:7383 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-20 21:49:03,801 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/requirements.txt
+2023-07-20 21:49:03,802 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/conda-environment.yaml
+2023-07-20 21:49:03,802 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:05,025 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:05,192 DEBUG   HandlerThread:7383 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-20 21:49:05,192 INFO    HandlerThread:7383 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-20 21:49:05,198 DEBUG   SenderThread:7383 [sender.py:send():369] send: files
+2023-07-20 21:49:05,198 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-20 21:49:05,205 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-20 21:49:05,205 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: stop_status
+2023-07-20 21:49:05,553 DEBUG   SenderThread:7383 [sender.py:send():369] send: telemetry
+2023-07-20 21:49:05,800 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/conda-environment.yaml
+2023-07-20 21:49:05,801 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-metadata.json
+2023-07-20 21:49:05,801 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:05,970 INFO    wandb-upload_0:7383 [upload_job.py:push():133] Uploaded file /tmp/tmpx2qx21w5wandb/l5q8tgoe-wandb-metadata.json
+2023-07-20 21:49:07,030 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:07,102 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:07,803 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:09,039 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:09,806 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:11,048 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:11,809 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:11,969 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:11,980 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:11,980 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:11,980 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:12,115 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:12,811 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:13,059 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:13,812 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:15,064 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:15,814 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:16,362 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:16,368 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:16,370 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:16,371 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:16,816 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:17,070 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:17,131 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:17,818 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:19,080 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:19,820 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:20,205 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-20 21:49:20,205 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: stop_status
+2023-07-20 21:49:21,087 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:21,178 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:21,184 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:21,186 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:21,187 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:21,821 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:21,821 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:22,201 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:23,096 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:23,824 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:25,103 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:25,827 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:26,559 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:26,564 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:26,564 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:26,564 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:26,829 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:27,110 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:27,211 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:27,830 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:29,117 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:29,833 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:31,125 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:31,750 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:31,751 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:31,752 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:31,754 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:31,836 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:31,837 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:32,225 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:32,837 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/config.yaml
+2023-07-20 21:49:33,377 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:34,843 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:35,210 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-20 21:49:35,212 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: stop_status
+2023-07-20 21:49:35,384 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:36,846 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:37,087 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:37,087 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:37,088 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:37,088 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:37,393 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:37,618 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:37,847 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:38,849 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:39,398 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:40,850 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:41,326 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:41,332 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:41,333 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:41,334 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:41,407 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:41,852 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:42,638 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:42,854 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:43,416 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:44,857 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:45,424 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:45,852 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:45,858 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:45,861 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:45,861 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:46,863 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:46,864 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:47,433 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:47,669 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:48,866 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:49,440 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:50,207 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-20 21:49:50,208 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: stop_status
+2023-07-20 21:49:50,574 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:50,581 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:50,582 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:50,583 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:50,868 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:50,868 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:51,449 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:52,706 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:52,870 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:53,460 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:54,873 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:55,471 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:56,616 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:49:56,617 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:49:56,617 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:49:56,617 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:49:56,877 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:56,879 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:49:57,476 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:49:57,724 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:49:58,880 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:49:59,486 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:00,887 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:01,492 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:02,351 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:50:02,355 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:50:02,357 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:50:02,360 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:50:02,742 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:50:02,890 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:02,892 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:50:03,016 DEBUG   SystemMonitor:7383 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-20 21:50:03,021 DEBUG   SenderThread:7383 [sender.py:send():369] send: stats
+2023-07-20 21:50:03,728 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:04,895 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:05,206 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-20 21:50:05,206 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: stop_status
+2023-07-20 21:50:05,734 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:06,898 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:07,585 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:50:07,591 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:50:07,593 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:50:07,595 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:50:07,743 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:07,752 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:50:07,899 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:50:08,900 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:09,753 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:10,904 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:11,761 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:12,690 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:50:12,691 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:50:12,691 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:50:12,691 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:50:12,800 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:50:12,906 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:12,906 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:50:13,768 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:14,909 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:15,775 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:16,912 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:17,129 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:50:17,129 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:50:17,130 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:50:17,130 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:50:17,784 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:17,828 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:50:17,913 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:50:18,913 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:19,789 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:20,208 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-20 21:50:20,210 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: stop_status
+2023-07-20 21:50:20,916 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:21,798 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:21,865 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:50:21,866 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:50:21,866 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:50:21,866 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:50:21,916 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:50:22,831 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:50:22,918 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:23,805 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:24,921 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:25,812 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:26,924 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:27,195 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-20 21:50:27,201 DEBUG   SenderThread:7383 [sender.py:send():369] send: history
+2023-07-20 21:50:27,203 DEBUG   SenderThread:7383 [sender.py:send_request():396] send_request: summary_record
+2023-07-20 21:50:27,205 INFO    SenderThread:7383 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-20 21:50:27,821 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:27,839 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
+2023-07-20 21:50:27,925 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/wandb-summary.json
+2023-07-20 21:50:28,926 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:29,828 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:30,929 INFO    Thread-12 :7383 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gustavo/PersonalProjects/Cat-Dogs_audio-classification/wandb/run-20230720_214902-527uys2m/files/output.log
+2023-07-20 21:50:31,838 ERROR   gpu       :7383 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-07-20 21:50:32,840 DEBUG   HandlerThread:7383 [handler.py:handle_request():144] handle_request: status_report
