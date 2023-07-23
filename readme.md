@@ -38,6 +38,13 @@ There is some data preparation on-the-fly for training,the audio is padded to 5s
         )
 
 
+Confusion Matrix:
+
+
+![Alt text](image.png)
+
+
+
 The model is trained for 150 epochs, after that the model is reaching a plato, and the network don't learn anymore, even with more epochs.
 Feel free to use this code to implement your own audio classifier  
 
@@ -78,6 +85,9 @@ Há alguma preparação de dados on-the-fly para treinamento, o áudio é preenc
             nn.Linear(4, 2)
         )
 
+Matriz de confusão
+
+![Alt text](image-1.png)
 
 O modelo é treinado por 150 épocas, depois disso o modelo atinge um plato e a rede não aprende mais, mesmo com mais épocas Sinta-se à vontade para usar este código para implementar seu próprio classificador de áudio
 
