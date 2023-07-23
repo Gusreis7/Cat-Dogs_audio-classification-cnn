@@ -1,2 +1,2 @@
 #ignoring wandb logs
-/wandb
+wandb

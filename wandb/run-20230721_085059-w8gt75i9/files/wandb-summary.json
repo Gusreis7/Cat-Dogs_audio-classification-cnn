@@ -1,1 +1,0 @@
-{"Loss/train per epoch": 0.28395383646756484, "Loss/test per epoch": 0.34264984621799416, "Accuracy/test": 84.28571428571429, "_timestamp": 1689940542.4707303, "_runtime": 282.7173202037811, "_step": 149, "_wandb": {"runtime": 281}}
