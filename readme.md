@@ -50,22 +50,34 @@ Para este trabalho, utilizei um conjunto de dados público de classificação de
 Há alguma preparação de dados on-the-fly para treinamento, o áudio é preenchido/truncado para 5s e reamostrado para 16Khz se necessário, depois disso, há uma etapa de feature extraction e aplicação de dada augmentation usando time masking com 0.25 de probabilidade de ser aplicado , que transformam o áudio bruto em um espectrograma usando n_ffts = 600, e então o espectograma é alimentado para a seguinte rede neural
 
     self.conv_layer = nn.Sequential(
-        nn.Conv2d(1,4, kernel_size=3, passo=1, padding=2),
-        nn.ReLU(),
-        nn.MaxPool2d(kernel_size=2, passo=2),
-        nn.Conv2d(4,2, kernel_size=3, passo=1, padding=2),
-        nn.ReLU(),
-        nn.MaxPool2d(kernel_size=2, passo=2)
-    )
-    
-    self.flatten = nn.Flatten()
-    self.linear_relu_stack = nn.Sequential(
-        nn.Linear(2*76*68,64),
-        nn.ReLU(),
-        nn.Linear(64, 8),
-        nn.ReLU(),
-        nn.Linear(8, 2)
-    )
+            nn.Conv2d(1,128, kernel_size=3, stride=1, padding=2),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(128,64, kernel_size=3, stride=1, padding=2),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(64,32, kernel_size=3, stride=1, padding=2),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.BatchNorm2d(32),
+            nn.Conv2d(32,16, kernel_size=3, stride=1, padding=2),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2)
+
+        )
+        
+        self.flatten = nn.Flatten()
+        self.linear_relu_stack = nn.Sequential(
+            nn.Linear(16*20*18,256),
+            nn.ReLU(),
+            nn.Linear(256, 64),
+            nn.ReLU(),
+            nn.Linear(64, 32),
+            nn.Linear(32, 4),
+            nn.ReLU(),
+            nn.Linear(4, 2)
+        )
+
 
 O modelo é treinado por 150 épocas, depois disso o modelo atinge um plato e a rede não aprende mais, mesmo com mais épocas Sinta-se à vontade para usar este código para implementar seu próprio classificador de áudio
 
